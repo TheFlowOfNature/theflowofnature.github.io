@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    background-color: #f2f4f8;
+}
+
+.catds_design{
+    padding: 8em 0;
+}
+
+.container{
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.container .row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container .row .column{
+    width: 25%;
+    text-align: center;
+}
+
+.container .row .column .pd{
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+/* .container .row .column .pd .shadow{
+
+} */

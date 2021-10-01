@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    transition: all 0.2s linear;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../static/river.png');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    /* background: #000; */
+}
+
+h1{
+    font-size: 40px;
+    margin-top: 20px;
+    color: #e74c3e;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    height: 530px;
+    width: 300px;
+    margin: 20px;
+    margin-top: 7%;
+    box-shadow: 0 3px 5px #000;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    background-color: #222;
+}
+
+.card .bg-image img{
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    clip-path: polygon(0 0, 100% 0%, 100% 70%, 45% 100%, 0% 70%);
+}
+
+.card .pic img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 10px solid #222;
+    margin-top: -90px;
+    position: relative;
+}
+
+.card .info h3{
+    color: #f0f0f0;
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.card .info span{
+    font-size: 15px;
+    color: #e74c3e;
+}
+
+.card .info p{
+    font-size: 13px;
+    padding: 10px 20px;
+    color: #999;
+}
+
+.card .icons a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #e74c3e;
+    margin-top: 20px;
+    padding: 0 5px;
+}
+
+.card .icons a:hover{
+    color: #f0f0f0;
+}
+
+
+    ul {
+        float: right;
+        list-style-type: none;
+        margin-top: 0px;
+    }
+
+    ul li{
+        display: inline-block;
+        margin-top: 25px    ;
+    }
+
+    ul li.active a{
+        background-color: #fff;
+        color: #000;
+    }
+
+    ul li a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        padding: 5px 20px;
+        border: 2px solid transparent;
+        transition: 0.6s ease;
+    }
+
+    ul li a:hover{
+        background-color: #fff;
+        color: #000;
+    }
